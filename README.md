@@ -5,4 +5,5 @@ A quick note - the data files take a bit of time to download, so when you type i
 To run the shiny app, type the following in RStudio:
 
 library(shiny)
+
 runGitHub("Word-Prediction","NickSEC")
