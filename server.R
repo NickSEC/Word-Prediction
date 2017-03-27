@@ -3,9 +3,6 @@
 # Coursera Data Science Capstone Project
 
 library(shiny)
-#Set data size to 20 Gigs.  We need to use 18.5 Gigs for the data files
-options(shiny.maxRequestSize = 20 * 1024 ^ 2)
-#setwd("/Users/nicklukianoff/Desktop/Capstone")
 
 #Initialize variables
 bestguess <- ""
