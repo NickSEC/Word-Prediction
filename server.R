@@ -13,12 +13,9 @@ matchingRows <-
                    stringsAsFactors = FALSE)
 
 #Read in N-grams
-# two_df <- read.table("BiGram.txt", header = TRUE, fill = TRUE)
-# three_df <- read.table("TriGram.txt", header = TRUE, fill = TRUE)
-# four_df <- read.table("QuadGram.txt", header = TRUE, fill = TRUE)
-two_df <- read.table(url("https://github.com/NickSEC/Word-Prediction/BiGram.txt"), header = TRUE, fill = TRUE)
-three_df <- read.table(url("https://github.com/NickSEC/Word-Prediction/TriGram.txt"), header = TRUE, fill = TRUE)
-four_df <- read.table(url("https://github.com/NickSEC/Word-Prediction/QuadGram.txt"), header = TRUE, fill = TRUE)
+two_df <- read.table("BiGram.txt", header = TRUE, fill = TRUE)
+three_df <- read.table("TriGram.txt", header = TRUE, fill = TRUE)
+four_df <- read.table("QuadGram.txt", header = TRUE, fill = TRUE)
 
 # Define server logic
 shinyServer(function(input, output) {
